@@ -1,0 +1,38 @@
+
+
+/* navigation css  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 223px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+
+/* Start banner css */
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, right bottom;
+    background-size: contain, auto;
+}
+.banner-info{
+    margin-left: 230px;
+}
+/* End banner css */
