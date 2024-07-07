@@ -1,33 +1,61 @@
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Share color */
+.primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 5px;
+    padding: 18px 19px;
+    background: rgb(253, 110, 10);
+    border: none;
+    cursor: pointer;
+}
+
 /* navigation css  */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 223px;
+    margin: 40px 223px;
 }
-nav ul{
+
+nav h1 {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 
 /* Start banner css */
-#banner{
+#banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +64,37 @@ nav li a{
     background-position: bottom left, right bottom;
     background-size: contain, auto;
 }
-.banner-info{
+
+.banner-info {
     margin-left: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.banner-info h3 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+}
+
+.banner-info h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+}
+
+.banner-info p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+}
+
 /* End banner css */
