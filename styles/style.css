@@ -188,8 +188,8 @@ nav li a {
 .services-items {
     display: flex;
     justify-content: center;
-    gap:24px;
-    
+    gap: 24px;
+
 }
 
 .services-item {
@@ -221,3 +221,68 @@ nav li a {
 }
 
 /* Ends services css here */
+/* ============================================ */
+/* Starts resume css here */
+#resume {
+    margin-top: 160px;
+}
+
+#resume>h1 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.resume-container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 70px;
+}
+.resume-col{
+    display:flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.resume-content {}
+
+.resume-content h1 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+
+.resume-content h3 {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.resume-content h5 {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.resume-content p {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Ends resume css here */
