@@ -243,12 +243,12 @@ nav li a {
     margin: 0 auto;
     gap: 70px;
 }
-.resume-col{
-    display:flex;
+
+.resume-col {
+    display: flex;
     flex-direction: column;
     gap: 60px;
 }
-.resume-content {}
 
 .resume-content h1 {
     color: rgb(71, 71, 71);
@@ -286,3 +286,56 @@ nav li a {
 }
 
 /* Ends resume css here */
+
+/* Footer Part here */
+footer {
+    background: rgb(255, 248, 243);
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-container {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap: 117px;
+}
+
+.foot-col h2 {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+
+.foot-col p {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+footer form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+footer form input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 18px 10px;
+    border-radius: 5px;
+}
+.form-btn-primary{
+    display: block;
+    width: 150px;
+    padding: 18px 39px;
+    color: white;
+    background: rgb(253, 110, 10);
+}
