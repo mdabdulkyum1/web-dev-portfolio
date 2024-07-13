@@ -7,7 +7,10 @@
     <title>Mary Portfolio</title>
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <!-- main css -->
     <link rel="stylesheet" href="styles/style.css">
+    <!-- responsive css -->
+     <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
@@ -29,19 +32,21 @@
                 <h1>Mary Hardy</h1>
                 <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society
                     behaved moments.</p>
-                <div>
+                <div class="banner-info-btn-container">
                     <button class="btn-primary"><i class="fa-light fa-download"></i> Download CV</button>
                     <button class="btn-primary-outline
                     "><i class="fa-light fa-phone"></i> Contact</button>
                 </div>
             </div>
-            <img src="images/hardy.png" alt="">
+            <div class="banner-img-con">
+                <img  src="images/hardy.png" alt="">
+            </div>
         </section>
         <!-- End Banner section  -->
     </header>
     <!-- Start main part -->
     <main>
-        <section id="about">
+        <section id="about"  class="hide">
             <div class="about-content">
                 <h1>About Me</h1>
                 <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick
@@ -69,7 +74,7 @@
             </div>
         </section>
         <!-- Starts Services section -->
-        <section id="services">
+        <section id="services" class="hide">
             <h3>What I do</h3>
             <p>I have more than 10 years experience building software for clients all over the world. Below is a quick
                 overview of my main technical skill sets and technologies i use. Want to find out more about my
@@ -104,7 +109,7 @@
         <!-- Ends Services section -->
 
         <!-- Starts resume section  -->
-        <section id="resume">
+        <section id="resume" class="hide">
             <h1>A summary of My Resume</h1>
             <div class="resume-container">
                 <div class="resume-col">
@@ -168,7 +173,7 @@
     <!-- End main part -->
 
     <!-- Start Footer part -->
-    <footer>
+    <footer class="hide">
         <div class="foot-container">
             <div class="foot-col">
                 <h2>Lets Connect</h2>

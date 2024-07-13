@@ -1,0 +1,65 @@
+/* small devices   */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 24px;
+    }
+    .btn-primary {
+        font-size: 1.5em;
+        border-radius: 5px;
+        padding: .5em .7em;
+    }
+
+    nav,
+    nav ul,.banner-info
+     {
+        display: block;
+        margin: 0;
+    }
+
+    /* banner */
+    #banner {
+        flex-direction: column;
+        background: none;
+        padding: 24px;
+    }
+
+    .banner-info {
+        
+        margin: 0;
+    }
+
+    .banner-info h1 {
+        font-size: 1.5em;
+    }
+    .banner-info p {
+        width:100%;
+    }
+    
+    .banner-info h1{
+        line-height:48px;
+    }
+    
+
+    .banner-img-con img{
+        width: 100%;
+    }
+    .banner-info-btn-container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
